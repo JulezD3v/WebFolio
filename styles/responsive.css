@@ -1,0 +1,90 @@
+/* Responsive Design Styles */
+
+/* Large Desktop (1280px and above) */
+@media (min-width: 1280px) {
+  .container {
+    padding: 0 var(--space-8);
+  }
+}
+
+/* Desktop (992px to 1279px) */
+@media (max-width: 1279px) {
+  .title {
+    font-size: 4rem;
+  }
+}
+
+/* Tablet (768px to 991px) */
+@media (max-width: 991px) {
+  .hero .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%;
+    margin-bottom: var(--space-8);
+  }
+
+  .cta-buttons {
+    justify-content: center;
+  }
+
+  .title {
+    font-size: 3.5rem;
+  }
+
+  .bio {
+    margin: 0 auto var(--space-8);
+  }
+}
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .btn {
+    padding: var(--space-2) var(--space-4);
+  }
+
+  .hero {
+    padding-top: 100px;
+  }
+  
+  .header {
+    padding: var(--space-3) 0;
+  }
+
+  .nav-actions {
+    gap: var(--space-2);
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    gap: var(--space-3);
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .hero-image img {
+    max-height: 350px;
+  }
+}
+
+/* Small Mobile (up to 480px) */
+@media (max-width: 480px) {
+  .title {
+    font-size: 2rem;
+  }
+  
+  .greeting {
+    font-size: 1.25rem;
+  }
+  
+  .bio {
+    font-size: 1rem;
+  }
+}

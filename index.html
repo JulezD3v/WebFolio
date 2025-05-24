@@ -1,0 +1,337 @@
+<!Doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Julie Kimani | Web Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="/styles/main.css" />
+    <link rel="stylesheet" href="/styles/header.css" />
+    <link rel="stylesheet" href="/styles/hero.css" />
+    <link rel="stylesheet" href="/styles/sidebar.css" />
+    <link rel="stylesheet" href="/styles/bio.css" />
+    <link rel="stylesheet" href="/styles/services.css" />
+    <link rel="stylesheet" href="/styles/skills.css" />
+    <link rel="stylesheet" href="/styles/portfolio.css" />
+    <link rel="stylesheet" href="/styles/footer.css" />
+    <link rel="stylesheet" href="/styles/responsive.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <!-- Header Navigation -->
+      <header class="header">
+        <div class="container">
+          <div class="logo">
+            <a href="/" class="logo-link">
+              <i class="fa-solid fa-compass-drafting"></i>
+              <span>Web Portfolio</span>
+            </a>
+          </div>
+          <nav class="main-nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#" class="nav-link active">Home</a></li>
+              <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+              <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link">Pages <i class="fa-solid fa-chevron-down"></i></a>
+              </li>
+              <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+          </nav>
+          <div class="nav-actions">
+            <a href="#contact" class="btn btn-primary">Hire Me</a>
+            <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">
+              <i class="fas fa-moon"></i>
+              <i class="fas fa-sun"></i>
+            </button>
+            <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </header>
+
+      <!-- Side Navigation -->
+      <aside class="sidebar">
+        <div class="sidebar-actions">
+          <button class="sidebar-btn" aria-label="Forward">
+            <i class="fas fa-arrow-right"></i>
+          </button>
+          <button class="sidebar-btn" aria-label="Back">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <button class="sidebar-btn" aria-label="Download CV">
+            <i class="fas fa-download"></i>
+          </button>
+          <button class="sidebar-btn" aria-label="Purchase">
+            <i class="fas fa-shopping-cart"></i>
+          </button>
+        </div>
+      </aside>
+
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h4 class="greeting">Hi, I'm Julie Kimani</h4><b>
+            <h4 class="subtitle">A Creative</h4>
+            </b>
+            <h1 class="title">Web <span class="highlight">Developer</span></h1>
+            <p class="bio">
+              I'm a web developer who doesn’t just build sites
+              — I engineer experiences. From frontend finesse to backend logic, I breathe code. JavaScript is my native tongue, React is my playground, and APIs are my love language. I'm not here to follow trends — I build what moves the web forward.
+            </p>
+            <div class="cta-buttons">
+              <a href="mailto:juliekimaniw0rk@gmail.com" class="btn btn-primary">Hire Me</a>
+              <a href=" https://jul3zdevportfolio.netlify.app/ " class="btn btn-outline">My Portfolio</a>
+            </div>
+          </div>
+          <div class="hero-image">
+            <img src="images/JulesV.png" alt="Professional portrait of Julie" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Biography Section -->
+      <section id="about" class="bio-section">
+        <div class="container">
+          <div class="bio-content">
+            <div class="bio-image">
+              <img src="images/Kling.png" alt="John Watson profile" />
+            </div>
+            <div class="bio-details">
+              <h3 class="section-subtitle">MY BIOGRAPHY</h3>
+              <h2 class="section-title">UI Designer & Web Developer Based In Kenya</h2>
+              <p class="bio-text">
+                I love Graphic design and Photography and have been working on my portfolio since 2016. 
+                I can give your business a new Creative start right away! Contact me and we will discuss your projects!
+              </p>
+              <div class="bio-info">
+                <div class="info-item">
+                  <span class="label">Name:</span>
+                  <span class="value">Julie Kimani</span>
+                </div>
+                <div class="info-item">
+                  <span class="label">From:</span>
+                  <span class="value">Nairobi, Kenya</span>
+                </div>
+                <div class="info-item">
+                  <span class="label">Email:</span>
+                  <span class="value">jul3zdev@gmail.com</span>
+                </div>
+                <div class="info-item">
+                  <span class="label">Phone:</span>
+                  <span class="value">+21 234 567 8901</span>
+                </div>
+              </div>
+              <div class="social-links">
+                <span>Follow me on</span>
+                <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+              </div>
+              <div class="bio-actions">
+                <a href="mailto: juliekimaniw0rk@gmail.com" class="btn btn-primary">Hire me</a>
+                <a href="https://jul3zdevportfolio.netlify.app/ " class="btn btn-outline">Download CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Services Section -->
+      <section id="services" class="services-section">
+        <div class="container">
+          <h2 class="section-title text-center">What I Do For You</h2>
+          <div class="services-grid">
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Web Development</h3>
+              <p>I’m a web developer who builds clean, responsive, and blazing-fast websites. From pixel-perfect UIs to seamless backend logic,
+                 I code experiences that convert and scale.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-mobile-alt"></i>
+              </div>
+              <h3>App Development</h3>
+              <p>I design and build mobile apps that don’t just function — they flow.
+                 Using Dart & Flutter, I craft cross-platform apps that feel native, look premium, and solve real problems.</p>
+            </div>
+            <div class="service-card">
+              <div class="service-icon">
+                <i class="fas fa-camera"></i>
+              </div>
+              <h3>Digital Market</h3>
+              <p>I blend creativity with strategy to launch digital campaigns that move numbers and make noise.
+                 From SEO to social ads, I help brands grow, convert, and dominate their niche.</p>
+            </div>
+          </div>
+          <div class="text-center">
+            <a href="https://jul3zdevportfolio.netlify.app/ " class="btn btn-outline">More Services <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section class="skills-section">
+        <div class="container">
+          <div class="skills-content">
+            <div class="skills-image">
+              <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg" alt="Work setup" />
+            </div>
+            <div class="skills-info">
+              <p class="skills-text">
+                I Specialize in Branding and Strategy, and am passionate about creating Awesome Portfolio work. 
+                I'm always ready to impress the audience with my Creativity.
+              </p>
+              <div class="skill-bars">
+                <div class="skill-bar">
+                  <div class="skill-header">
+                    <span class="skill-name">UI/UX Design</span>
+                    <span class="skill-percentage">85%</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 85%"></div>
+                  </div>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-header">
+                    <span class="skill-name">Ideas & Technology</span>
+                    <span class="skill-percentage">95%</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 95%"></div>
+                  </div>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-header">
+                    <span class="skill-name">Branding Design</span>
+                    <span class="skill-percentage">75%</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 75%"></div>
+                  </div>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-header">
+                    <span class="skill-name">Responsive Web Design</span>
+                    <span class="skill-percentage">90%</span>
+                  </div>
+                  <div class="progress-bar">
+                    <div class="progress" style="width: 90%"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section class="portfolio-section">
+        <div class="container">
+          <h2 class="section-title text-center">Latest Works</h2>
+          <div class="portfolio-grid">
+            <div class="portfolio-item">
+              <img src="https://images.pexels.com/photos/326502/pexels-photo-326502.jpeg" alt="Portfolio 1" />
+            </div>
+            <div class="portfolio-item">
+              <img src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg" alt="Portfolio 2" />
+            </div>
+            <div class="portfolio-item">
+              <img src="https://images.pexels.com/photos/4348404/pexels-photo-4348404.jpeg" alt="Portfolio 3" />
+            </div>
+            <div class="portfolio-item">
+              <img src="https://images.pexels.com/photos/3182834/pexels-photo-3182834.jpeg" alt="Portfolio 4" />
+            </div>
+            <div class="portfolio-item">
+              <img src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg" alt="Portfolio 5" />
+            </div>
+            <div class="portfolio-item">
+              <img src="https://images.pexels.com/photos/3182777/pexels-photo-3182777.jpeg" alt="Portfolio 6" />
+            </div>
+          </div>
+        </div>
+        <div class="client-logos">
+          <div class="container">
+            <div class="logo-grid">
+              <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/adobe.svg" alt="Client 1" class="client-logo" />
+              <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/airbnb.svg" alt="Client 2" class="client-logo" />
+              <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/amazon.svg" alt="Client 3" class="client-logo" />
+              <img src="https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/google.svg" alt="Client 4" class="client-logo" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Mobile Navigation Menu -->
+      <div class="mobile-menu">
+        <div class="mobile-menu-header">
+          <div class="logo">
+            <i class="fa-solid fa-compass-drafting"></i>
+            <span>Web Portfolio</span>
+          </div>
+          <button class="close-menu" aria-label="Close menu">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+        <nav class="mobile-nav">
+          <ul class="mobile-nav-list">
+            <li class="mobile-nav-item"><a href="#" class="mobile-nav-link active">Home</a></li>
+            <li class="mobile-nav-item"><a href="#about" class="mobile-nav-link">About</a></li>
+            <li class="mobile-nav-item"><a href="#services" class="mobile-nav-link">Services</a></li>
+            <li class="mobile-nav-item"><a href="#" class="mobile-nav-link">Blog</a></li>
+            <li class="mobile-nav-item"><a href="https://jul3zdevportfolio.netlify.app/ " class="mobile-nav-link">Pages</a></li>
+            <li class="mobile-nav-item"><a href="#contact" class="mobile-nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <i class="fa-solid fa-compass-drafting"></i>
+              <span>Web Portfolio</span>
+            </div>
+            <div class="footer-contact">
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <span>+12 345 678 900</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <span>jul3zdev@gmail.com</span>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <span>Nairobi, Kenya - 00400</span>
+              </div>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <p class="copyright">© 2024 Web Portfolio. All Rights Reserved</p>
+            <div class="social-icons">
+              <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-pinterest"></i></a>
+              <a href="#" class="social-icon"><i class="fab fa-vk"></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    <script type="module" src="/scripts/main.js"></script>
+  </body>
+</html>

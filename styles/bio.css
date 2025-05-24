@@ -1,0 +1,126 @@
+/* Biography Section Styles */
+.bio-section {
+  padding: var(--space-16) 0;
+  background-color: var(--bg-secondary);
+}
+
+.bio-content {
+  display: flex;
+  gap: var(--space-16);
+  align-items: center;
+}
+
+.bio-image {
+  flex: 1;
+}
+
+.bio-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+.bio-details {
+  flex: 1;
+}
+
+.section-subtitle {
+  color: var(--accent);
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: var(--space-2);
+}
+
+.section-title {
+  font-size: 2.5rem;
+  margin-bottom: var(--space-6);
+}
+
+.bio-text {
+  color: var(--text-secondary);
+  margin-bottom: var(--space-8);
+}
+
+.bio-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+
+.info-item {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.label {
+  color: var(--text-secondary);
+  min-width: 70px;
+}
+
+.value {
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.social-links {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-8);
+}
+
+.social-links span {
+  color: var(--text-secondary);
+}
+
+.social-link {
+  color: var(--text-primary);
+  font-size: 1.25rem;
+  transition: var(--transition);
+}
+
+.social-link:hover {
+  color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.bio-actions {
+  display: flex;
+  gap: var(--space-4);
+}
+
+@media (max-width: 991px) {
+  .bio-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .bio-image {
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .bio-info {
+    justify-content: center;
+  }
+
+  .social-links {
+    justify-content: center;
+  }
+
+  .bio-actions {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .bio-info {
+    grid-template-columns: 1fr;
+  }
+}

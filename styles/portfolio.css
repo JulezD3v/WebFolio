@@ -1,0 +1,66 @@
+/* Portfolio Section Styles */
+.portfolio-section {
+  padding: var(--space-16) 0;
+  background-color: var(--bg-secondary);
+}
+
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-6);
+  margin-bottom: var(--space-12);
+}
+
+.portfolio-item {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.1);
+}
+
+.client-logos {
+  background-color: var(--accent);
+  padding: var(--space-12) 0;
+  margin-top: var(--space-16);
+}
+
+.logo-grid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-8);
+}
+
+.client-logo {
+  max-width: 120px;
+  filter: brightness(0) invert(1);
+  opacity: 0.8;
+  transition: var(--transition);
+}
+
+.client-logo:hover {
+  opacity: 1;
+}
+
+@media (max-width: 991px) {
+  .portfolio-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 767px) {
+  .portfolio-grid {
+    grid-template-columns: 1fr;
+  }
+}
